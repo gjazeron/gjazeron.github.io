@@ -22,3 +22,29 @@
   filter: none;
   transform: scale(1.1);
 }
+
+.site-header-with-photo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.header-profile-photo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--color-accent); /* adjust color if needed */
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.header-text p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--color-muted);
+}
