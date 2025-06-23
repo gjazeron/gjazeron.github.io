@@ -12,13 +12,15 @@
 }
 
 .header-profile-photo {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  width: 60px;            /* container size */
+  height: 60px;
+  object-fit: contain;    /* fit whole image inside without cropping */
   border-radius: 50%;
   border: 2px solid var(--color-accent);
   flex-shrink: 0;
-  margin-left: -10px; /* tweak this value to get the perfect horizontal offset */
+  margin-left: -10px;     /* optional offset */
+  max-width: 100%;        /* scale image down if larger */
+  max-height: 100%;
 }
 
 
@@ -34,7 +36,9 @@
   display: flex;
   gap: 20px;
   flex-shrink: 0;
+  white-space: nowrap;   /* prevent icons from wrapping */
 }
+
 
 .header-social-icons a img {
   width: 28px;
