@@ -23,11 +23,7 @@
             <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
             <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
         </div>
-      </header>
-
-      <div id="banner">
-
-        <div class="social-banner-icons">
+        <div class="header-social-icons">
             <a href="https://github.com/gjazeron" target="_blank" title="GitHub">
                 <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" />
             </a>
@@ -38,6 +34,11 @@
                 <img src="https://freesvg.org/img/Mail-Icon-White-on-Black.png" alt="Email" />
             </a>
             </div>
+      </header>
+
+      <div id="banner">
+
+        
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Downloads:</span>
