@@ -3,45 +3,25 @@
 
 @import "{{ site.theme }}";
 
-.wrapper {
+.social-icons {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 999;
 }
 
-#sidebar {
-  width: 200px;
-  background: #f4f4f4;
-  padding: 1em;
-  border-right: 1px solid #ccc;
-  position: sticky;
-  top: 1em;
-  height: calc(100vh - 2em);
-  overflow-y: auto;
+.social-icons a img {
+  width: 28px;
+  height: 28px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-#sidebar ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-#sidebar ul li {
-  margin-bottom: 0.5em;
-}
-
-.main-content {
-  flex: 1;
-  padding: 1em 2em;
-}
-
-.sidebar-icons {
-  display: flex;
-  justify-content: center; /* center icons horizontally */
-  gap: 15px; /* space between icons */
-  padding: 1rem 0;
-}
-
-.sidebar-icons a img {
-  width: 48px;
-  height: 48px;
-  /* No filter at all, icons show their normal colors */
-  transition: none; /* no transition needed */
+.social-icons a:hover img {
+  filter: none;
+  transform: scale(1.1);
 }
