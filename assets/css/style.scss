@@ -9,16 +9,19 @@
   align-items: center;
   gap: 15px;
   margin-bottom: 30px;
+  max-width: 100%;    /* or a fixed max-width like 900px */
+  overflow: hidden;   /* clip overflow */
 }
 
+
 .header-profile-photo {
-  width: 60px;            /* container size */
-  height: 60px;
+  width: 70px;            /* container size */
+  height: 70px;
   object-fit: contain;    /* fit whole image inside without cropping */
   border-radius: 50%;
   border: 2px solid var(--color-accent);
   flex-shrink: 0;
-  margin-left: -10px;     /* optional offset */
+  margin-left: -60px;     /* optional offset */
   max-width: 100%;        /* scale image down if larger */
   max-height: 100%;
 }
@@ -26,11 +29,14 @@
 
 .header-text {
   flex-grow: 1;
+  flex-shrink: 1;    /* allow shrinking */
+  min-width: 0;      /* allow shrinking in flexbox */
   display: flex;
   flex-direction: column;
-  justify-content: center;  /* vertical centering */
-  text-align: center;       /* horizontal centering */
+  justify-content: center;
+  text-align: center;
 }
+
 
 .header-social-icons {
   display: flex;
