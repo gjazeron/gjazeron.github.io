@@ -24,6 +24,7 @@
   border: 2px solid var(--color-accent);
   flex-shrink: 0;
   margin: 0;
+  padding-left: 60px;
 }
 
 .header-text {
@@ -52,6 +53,7 @@
   filter: grayscale(100%);
   transition: filter 0.3s ease, transform 0.3s ease;
   display: block;
+  padding-right: 60px;
 }
 
 .header-social-icons a:hover img {
