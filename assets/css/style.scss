@@ -25,7 +25,7 @@
 
 .site-header-with-photo {
   display: flex;
-  align-items: center;
+  align-items: center;       /* vertically center image and text container */
   gap: 15px;
   margin-bottom: 30px;
 }
@@ -35,16 +35,14 @@
   height: 60px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid var(--color-accent); /* adjust color if needed */
+  border: 2px solid var(--color-accent);
+  flex-shrink: 0;  /* prevent image from shrinking */
 }
 
-// .header-text h1 {
-//   margin: 0;
-//   font-size: 1.8rem;
-// }
-
-// .header-text p {
-//   margin: 0;
-//   font-size: 1rem;
-//   color: var(--color-muted);
-// }
+.header-text {
+  flex-grow: 1;              /* take all remaining horizontal space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertically center title + description inside this area */
+  text-align: center;        /* horizontally center the text */
+}
