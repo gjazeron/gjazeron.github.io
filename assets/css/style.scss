@@ -8,9 +8,6 @@
   align-items: center;
   gap: 15px;
   margin-bottom: 30px;
-  padding-left: 0px;
-  padding-right: 0px;
-  max-width: 100vw;
   box-sizing: border-box;
   overflow-x: auto; /* changed from auto or hidden */
   white-space: nowrap;
@@ -43,8 +40,6 @@
   gap: 20px;
   flex-shrink: 0;
   white-space: nowrap;
-  margin-right: 0; /* remove right margin */
-  padding-right: 10px; /* small padding to avoid clipping */
 }
 
 .header-social-icons a img {
