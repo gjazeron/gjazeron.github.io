@@ -4,4 +4,4 @@ baseurl: /    # place folder name if the site is served in a subfolder
 remote_theme: pages-themes/leap-day@v0.2.0
 
 title: Guilhem Jazeron
-description: PhD student in symmetric cryptography in the COSMIQ team at INRIA Paris (France
+description: PhD student in symmetric cryptography in the COSMIQ team at INRIA Paris (France)
