@@ -3,25 +3,22 @@
 
 @import "{{ site.theme }}";
 
-.social-icons {
-  position: fixed;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
+.social-banner-icons {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  z-index: 999;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 0;
 }
 
-.social-icons a img {
+.social-banner-icons a img {
   width: 28px;
   height: 28px;
   filter: grayscale(100%);
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-.social-icons a:hover img {
+.social-banner-icons a:hover img {
   filter: none;
   transform: scale(1.1);
 }
