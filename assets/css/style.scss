@@ -11,6 +11,8 @@
   margin-bottom: 30px;
   max-width: 100%;    /* or a fixed max-width like 900px */
   overflow: hidden;   /* clip overflow */
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 
@@ -21,9 +23,6 @@
   border-radius: 50%;
   border: 2px solid var(--color-accent);
   flex-shrink: 0;
-  margin-left: 60px;     /* optional offset */
-  max-width: 100%;        /* scale image down if larger */
-  max-height: 100%;
 }
 
 
@@ -43,7 +42,6 @@
   gap: 20px;
   flex-shrink: 0;
   white-space: nowrap; 
-  margin-right: 60px;  /* prevent icons from wrapping */
 }
 
 
