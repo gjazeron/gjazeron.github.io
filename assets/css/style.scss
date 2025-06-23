@@ -31,3 +31,17 @@
   flex: 1;
   padding: 1em 2em;
 }
+
+.sidebar-icons {
+  display: flex;
+  justify-content: center; /* center icons horizontally */
+  gap: 15px; /* space between icons */
+  padding: 1rem 0;
+}
+
+.sidebar-icons a img {
+  width: 48px;
+  height: 48px;
+  /* No filter at all, icons show their normal colors */
+  transition: none; /* no transition needed */
+}
