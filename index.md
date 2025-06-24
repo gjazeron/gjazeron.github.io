@@ -15,6 +15,14 @@ I work on symmetric cryptography, specifically the analysis of [STAPs](https://s
 
 Work in progress...
 
+## 1.2 Talks
+
+- *Solving CICO-2 instances of Poseidon.* [Slides](./assets/presentations/poseidon.pdf)
+    * Cryptanalysis of Algebraic Hash Functions, affiliated even of FSE 2025, March 2025, Roma, Italy. [Site](https://www.cahf-poseidon.info/)
+    * Algebraic Hash Cryptanalysis Days, affiliated event of Eurocrypt 2025, May 2025, Madrid, Spain. [Site](https://www.ahc-poseidon.info/)
+- *Cryptanalysis of Monolith using rebound attacks.* [Slides](./assets/presentations/monolith.pdf)
+    * Journées Codages et Cryptographie (C2), April 2025, in Pornichet, France. [Site](https://indico.math.cnrs.fr/event/11948/)
+
 # 2. Teaching 
 
 Below is a list of the tutorials I have taken part in :
