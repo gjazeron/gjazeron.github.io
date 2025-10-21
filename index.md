@@ -14,8 +14,7 @@ I work on symmetric cryptography, specifically the analysis of [STAPs](https://s
 ## 1.1 Publications 
 
 - *Attacking Split-and-Lookup-Based Primitives Using Probabilistic Polynomial System Solving : Applications to Round-Reduced Monolith and Full-Round Skyscraper.* [link](https://tosc.iacr.org/index.php/ToSC/article/view/12473)
-    * IACR Transactions on Symmetric Cryptology, 2025(3)
-    * Antoine Bak, Pierre Galissant, Guilhem Jazeron, Léo Perrin
+    * IACR Transactions on Symmetric Cryptology, 2025(3). Antoine Bak, Pierre Galissant, Guilhem Jazeron, Léo Perrin.
 
 ## 1.2 Talks
 
@@ -26,7 +25,7 @@ I work on symmetric cryptography, specifically the analysis of [STAPs](https://s
     * Journées Codages et Cryptographie (C2), April 2025, in Pornichet, France. [Site](https://indico.math.cnrs.fr/event/11948/)
 - *Pahole : patching the rabbit hole.* [Slides](./assets/presentations/redocs25-orange.pdf)
     * Joint work with Ouail Derghal, Martin Horth, Paul Houssel, Guilhem Jazeron, Ludovic Paillat, Robin Theveniaut, during [REDOCS 2025](https://gdr-securite.irisa.fr/redocs/redocs25/).
-    * This work resulted in finding a way to modify *libbtf* so that it would allow to convert DWARF information into BTF information for `Go` binaries.
+    * This work resulted in finding a way to modify *libbtf* so that it would allow to convert DWARF information into BTF information for *Go* binaries.
 
 # 2. Teaching 
 
@@ -37,7 +36,7 @@ Below is a list of the tutorials I have taken part in:
   * Principles of Operation of Binary Machines ([PF1](https://yunes.informatique.univ-paris-diderot.fr/accueil/enseignement/pf1/)), Université Paris Cité
 - First semester of 2025:
   * Logic for computer science ([LO5](https://www.irif.fr/~schmitz/teach/2025_lo5/)), Université Paris Cité
-  * Modern applied cryptology, in the form of a terminal-based role playing game with CTF-like puzzles. (LACRYMO)[https://lacrymo.tme-crypto.fr/]
+  * Modern applied cryptology, in the form of a terminal-based role playing game with CTF-like puzzles. [LACRYMO](https://lacrymo.tme-crypto.fr/)
 
 # 3. Education
 
