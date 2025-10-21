@@ -32,7 +32,7 @@ I work on symmetric cryptography, specifically the analysis of [STAPs](https://s
 Below is a list of the tutorials I have taken part in:
 
 - First semester of 2024:
-  * Initiaton to programming in Java ([IP1](https://www.informatique.univ-paris-diderot.fr/formations/licences/ue/l1/ip1)), Université Paris Cité
+  * Initiation to programming in Java ([IP1](https://www.informatique.univ-paris-diderot.fr/formations/licences/ue/l1/ip1)), Université Paris Cité
   * Principles of Operation of Binary Machines ([PF1](https://yunes.informatique.univ-paris-diderot.fr/accueil/enseignement/pf1/)), Université Paris Cité
 - First semester of 2025:
   * Logic for computer science ([LO5](https://www.irif.fr/~schmitz/teach/2025_lo5/)), Université Paris Cité
