@@ -36,14 +36,19 @@ Below is a list of the tutorials I have taken part in:
   * Principles of Operation of Binary Machines ([PF1](https://yunes.informatique.univ-paris-diderot.fr/accueil/enseignement/pf1/)), Université Paris Cité
 - First semester of 2025:
   * Logic for computer science ([LO5](https://www.irif.fr/~schmitz/teach/2025_lo5/)), Université Paris Cité
-  * Modern applied cryptology, in the form of a terminal-based role playing game with CTF-like puzzles. [LACRYMO](https://lacrymo.tme-crypto.fr/)
+  * Modern applied cryptology ([LACRYMO](https://lacrymo.tme-crypto.fr/)), in the form of a terminal-based role playing game with CTF-like puzzles. 
 
 # 3. Education
 
 - 2024-now: Ph.D in Cryptography at Inria Paris.
-- 2023-2024: second year of the [Parisian Master of Research in Computer Science](https://wikimpri.dptinfo.ens-cachan.fr/doku.php).
+- 2023-2024: second year of the [Parisian Master of Research in Computer Science](https://mpri-master.ens.fr/doku.php?id=start).
 - 2021-2024: M.Sc. at [Télécom Paris](https://www.telecom-paris.fr/en/engineering/training). Specialization in applied algebra ([ACCQ track](https://synapses.telecom-paris.fr/catalogue/parcours/1401/ACCQ-filiere-algebre-appliquee-cryptographie-information-quantique-codage-creneau-c)) and theoretical computer science ([MITRO track](https://synapses.telecom-paris.fr/catalogue/2025-2026/parcours/1374/MITRO-mathematics-theoretical-computer-science-and-operation-research-time-slot-b))
 - 2019-2021: preparatory school in mathematics, physics and computer science at Lycée Pierre de Fermat in Toulouse.
+
+# 5. Misc.
+
+- I enjoy photography, you can check my work on the following website: https://continentcontrescarpe.fr/
+- I also enjoy CTFs a lot, and play some from time to time. I specialize in crypto challenges (obviously), but I also have a strong interest for binary exploitation and reverse engineering.
 
 # 4. Contact 
 
